@@ -1,12 +1,22 @@
 # ABOUT MODEL
 
+#### STEPS for processing:
+#### Speech-2-Text --> Text Processing --> Text-2-Speech
+
 ## Datasets 
 
-* CSTR VCTK Corpus includes speech data uttered by 110 English
-speakers with various accents. Each speaker reads out about 400
-sentences, which were selected from a newspaper, the rainbow passage
-and an elicitation paragraph used for the speech accent archive.
-*    * [CSTR VCTK Corpus](https://datashare.ed.ac.uk/handle/10283/3443)
+* LibriSpeech is a corpus of approximately 1000 hours of 16kHz read English speech, prepared by Vassil Panayotov with the assistance of Daniel Povey. 
+The data is derived from read audiobooks from the LibriVox project, and has been carefully segmented and aligned.
+*    * [LibriSpeech ASR corpus](https://www.openslr.org/12)
 
-* The speech accent archive is established to uniformly exhibit a large set of speech accents from a variety of language backgrounds. It is meant to be used by linguists as well as other people who simply wish to listen to and compare the accents of different English speakers.
-*   *  [The speech accent archive](http://accent.gmu.edu/about.php)
+* TED-LIUM release was made through a collaboration between the Ubiqus company and the LIUM which contains:- 
+2351 audio talks in NIST sphere format (SPH), 452 hours of audio, 2351 aligned automatic transcripts in STM format
+*   *  [TED-LIUM Release 3](https://www.openslr.org/51/)
+
+### References
+
+*  [OpenAI](https://platform.openai.com/docs/introduction)
+*  [End-2-End ASR's by Elsa Speak](https://github.com/mnm-rnd/elsa-voice-asr)
+*  [gTTS](https://gtts.readthedocs.io/en/latest/)
+*  [playsound](https://pypi.org/project/playsound/)
+*  [pyttsx3](https://pypi.org/project/pyttsx3/)

@@ -1,0 +1,13 @@
+wheel
+py3-tts
+playsound
+gTTS
+pyobjc
+pyttsx3
+flac
+pyaudio
+openai
+openai-whisper
+ffmpeg
+ffmpeg-python
+gradio
