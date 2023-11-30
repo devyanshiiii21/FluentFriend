@@ -1,0 +1,7 @@
+#toggle_nav:checked~div #hamburger #line {
+    transform: rotate(45deg) translateY(1.5px);
+}
+
+#toggle_nav:checked~div #hamburger #line2 {
+    transform: rotate(-45deg) translateY(-1px);
+}
